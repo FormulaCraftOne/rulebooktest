@@ -1,0 +1,11 @@
+[book]
+title = "FormulaCraft Official Rulebook"
+authors = []
+language = "en"
+multilingual = false
+src = "src"
+[output.html]
+additional-css = ["katex.min.css"]
+[preprocessor.katex]
+after = ["links"]
+no-css = true
